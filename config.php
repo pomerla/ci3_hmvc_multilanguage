@@ -22,8 +22,8 @@ define('DB_DBPREFIX', '');
 
 // DEVELBAR CONFIG
 //enable_develbar = TRUE or FALSE;
-define('ENABLE_DEVELBAR', FALSE);
-//define('ENABLE_DEVELBAR', TRUE);
+//define('ENABLE_DEVELBAR', FALSE);
+define('ENABLE_DEVELBAR', TRUE);
 
 
 ?>
