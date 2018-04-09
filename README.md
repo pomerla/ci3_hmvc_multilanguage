@@ -1,5 +1,3 @@
-#ci3_hmvc_multilanguage
-
 <b>Это тестовый проект для пробы установки через композер.....</b><br />
 <b>This is a test project for the installation through a compositor</b>
 
@@ -9,7 +7,7 @@
     <img src="http://www.beadingusa.com/images/AlphabetBlocks4.5/SterlingSilverBlockLetterCH901-C.jpg" width=72 height=72>
   </a>
 
-  <h3 align="center">Comingsoon</h3>
+  <h3 align="center">ci3_hmvc_multilanguage</h3>
 
   <p align="center">
     Sleek, intuitive, and powerful front-end framework for faster and easier web development.<br />
