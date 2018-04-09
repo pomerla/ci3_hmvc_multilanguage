@@ -1,95 +1,98 @@
-###################
-ci3_hmvc_multilanguage
-###################
+#ci3_hmvc_multilanguage
 
-The website has been open-sourced in the interest of transparency.
-We welcome issues and pull requests, to handle suggestions or corrections 
-to the style or structure of the website. 
-We will be a bit more reserved with the content :-/
-
-*****************
-Programming Style
-*****************
-
-The website exhibits "good" programming style, although definitely not
-the only way to do things. 
-
-Some of the programming design decisions reflected:
-
--   The <code>public</code> folder is the intended document root for the webapp.
--   The architecture adheres more to the "model-view-adapter" convention,
-    where the view is unaware of the source of data and the model is unaware of
-    how any data might be presented. The controllers are go-betweens.
--   A "master template" lets each controller focus 
-    only with building its part of a webpage.
--   A base controller takes care of assembling finished pages, using the 
-    master template.
--   Using the template parser eliminates PHP code from
-    the views, where possible.
--   Mock data for the recent news and most recently active threads, means
-    that the website can be tested locally, without needing access to 
-    the live forum database.
--   View fragments are used to style single "records" on their own,
-    improving cohesion.
--   An <code>.htaccess</code> file is incorporated, to configure Apache to remove
-    index.php from any URLs.
--   Some of the formatting has gotten out of hand, so I am trying to
-    conform to the CodeIgniter style guide as much as practical.
-
-*******
-Sitemap
-*******
-
-The site has a simple structure ... basically two-level 
-(homepage and then content pages). 
-There are a couple of additional pages, one for IRC for the visitors 
-who do not have a suitable client, and
-one for related but subordinate information, accessible from the footer navbar.
-
-Appropriate comments are found in each of the controllers.
-
-***************
-Project Folders
-***************
-
-/application    the obvious
-/public         document root
-    /assets         CSS, javascript & media
-    /data           zipped files for downloading, avatars
-/user_guide     symbolic link to the current user guide
-/userguide2     the user guide for CI2
-/userguide3     the user guide for CI3
+<b>Это тестовый проект для пробы установки через композер.....</b><br />
+<b>This is a test project for the installation through a compositor</b>
 
 
-************
-Installation
-************
+<p align="center">
+  <a href="http://moroz.rv.ua">
+    <img src="http://www.beadingusa.com/images/AlphabetBlocks4.5/SterlingSilverBlockLetterCH901-C.jpg" width=72 height=72>
+  </a>
 
-Please see the 
-`installation section <http://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
+  <h3 align="center">Comingsoon</h3>
 
-*******
-License
-*******
+  <p align="center">
+    Sleek, intuitive, and powerful front-end framework for faster and easier web development.<br />
+	Гладкая, интуитивно понятная и мощная интерфейсная среда для более быстрой и легкой веб-разработки.<br />
+	<strong>The working version of the page comingsoon.</strong><br />
+    <strong>Рабочий вариант страницы в стадии разработки.</strong>
+    <br>
+    <a href="http://moroz.rv.ua"><strong>Explore comingsoon docs &raquo;</strong></a>
+    <br>
+    <br>
+    <a href="http://moroz.rv.ua">Comingsoon Themes</a>
+    &middot;
+    <a href="http://moroz.rv.ua">Aleksander Moroz</a>
+    &middot;
+    <a href="http://moroz.rv.ua">Blog</a>
+  </p>
+</p>
 
-Please see the `license
-agreement <http://codeigniter.com/userguide3/license.html>`_
+<br>
 
-*********
-Resources
-*********
+## Table of contents
 
--  `User Guide <https://codeigniter.com/userguide3/>`_
--  `Community Forums <https://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki/>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+- [Quick start](#quick-start)
+- [Release Information](#release-information)
+- [Status](#status)
+- [Settings](#settings)
+- [Creators](#creators)
+- [Copyright and license](#copyright-and-license)
 
-***************
-Acknowledgement
-***************
+## Quick start
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-The CodeIgniter Project would like to thank the Reactor Engineers, EllisLab, 
-all the contributors to the CodeIgniter project, and you, the CodeIgniter user.
+Either run
 
-This repository is maintained by James Parry, Project Lead.
+```
+composer create-project pomerla/comingsoon
+```
+
+<strong>After installation correct config</strong>
+```
+ js/init.js 
+```
+<strong>and</strong>
+```
+ MailChimp Signup Form in index.html page.
+```
+
+## Release Information
+<a href="https://github.com/pomerla/comingsoon/releases">Release stable </a>
+
+## Status
+[![Latest Stable Version](https://poser.pugx.org/myphpfort/framework/v/stable)](https://packagist.org/packages/myphpfort/framework)
+[![Total Downloads](https://poser.pugx.org/myphpfort/framework/downloads)](https://packagist.org/packages/myphpfort/framework)
+[![Latest Unstable Version](https://poser.pugx.org/myphpfort/framework/v/unstable)](https://packagist.org/packages/myphpfort/framework)
+[![License](https://poser.pugx.org/myphpfort/framework/license)](https://packagist.org/packages/myphpfort/framework)
+
+## Creators
+<ul>
+  <li>Email:admin@moroz.rv.ua</li>
+  <li>Home:<a href="http://moroz.rv.ua/">moroz.rv.ua</a></li>
+  <li>GitHub:<a href="https://github.com/pomerla">github.com/pomerla</a></li>
+</ul>
+
+## Settings
+
+<strong>MailChimp Signup Form in index.html page</strong><br/>
+<strong>date settings js/init.js</strong><br/>
+```
+ var finalDate = '2017/12/31';
+```
+
+<strong>map settings js/init.js</strong> <br/>
+```
+    map = new GMaps({
+      el: '#map', 
+      lat: 50.635687,  
+      lng: 26.266856, 
+      zoom: 14, 
+      zoomControl : true,
+      zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, 
+      panControl : false, 
+      scrollwheel: false
+   });
+```   
+## Copyright and license
+<a href="https://en.wikipedia.org/wiki/MIT_License">MIT License</a>  
