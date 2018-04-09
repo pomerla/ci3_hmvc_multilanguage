@@ -26,11 +26,11 @@
 
 ## Resources
 CodeIgniter
-<a href="https://github.com/bcit-ci/CodeIgniter">CodeIgniter </a>
+<a href="https://github.com/bcit-ci/CodeIgniter">CodeIgniter </a><br />
 codeigniter-hmvc
-<a href="https://github.com/j4chal/codeigniter-hmvc">codeigniter-hmvc </a>
+<a href="https://github.com/j4chal/codeigniter-hmvc">codeigniter-hmvc </a><br />
 CodeIgniter-develbar 
-<a href="https://github.com/JCSama/CodeIgniter-develbar">CodeIgniter-develbar </a>
+<a href="https://github.com/JCSama/CodeIgniter-develbar">CodeIgniter-develbar </a><br />
  
  
 ## Copyright and license
