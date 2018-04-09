@@ -28,7 +28,7 @@
 CodeIgniter
 <a href="https://github.com/bcit-ci/CodeIgniter">CodeIgniter </a><br />
 codeigniter-hmvc
-<a href="https://github.com/j4chal/codeigniter-hmvc">codeigniter-hmvc </a><br />
+<a href="https://github.com/j4chal/codeigniter-hmvc">Codeigniter-hmvc </a><br />
 CodeIgniter-develbar 
 <a href="https://github.com/JCSama/CodeIgniter-develbar">CodeIgniter-develbar </a><br />
  
