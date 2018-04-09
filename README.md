@@ -1,7 +1,3 @@
-<b>Это тестовый проект для пробы установки через композер.....</b><br />
-<b>This is a test project for the installation through a compositor</b>
-
-
 <p align="center">
   <a href="http://moroz.rv.ua">
     <img src="http://www.beadingusa.com/images/AlphabetBlocks4.5/SterlingSilverBlockLetterCH901-C.jpg" width=72 height=72>
